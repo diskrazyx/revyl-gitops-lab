@@ -1,0 +1,17 @@
+# Revyl Test Definition
+
+_meta:
+    remote_id: f3979acb-c8aa-4abe-b70c-380a1eec88f6
+    remote_version: 2
+    local_version: 2
+    last_synced_at: "2026-10-12T16:54:47+02:00"
+    checksum: 707a021669a8f4a09fd0fce6f081b28e25ca712a89e4eb745c27788ef6a4d575
+test:
+    metadata:
+        name: checkout-smoke
+        platform: android
+    build:
+        name: GitOps Lab Android
+    blocks:
+        - type: instructions
+          step_description: Open the cart and tap Checkout
