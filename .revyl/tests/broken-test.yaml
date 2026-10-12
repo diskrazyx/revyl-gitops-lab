@@ -1,0 +1,6 @@
+test:
+    metadata:
+        name: broken-test
+        platform: blackberry
+    blocks:
+        - type: not_a_block
