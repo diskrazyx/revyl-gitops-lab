@@ -1,0 +1,17 @@
+project:
+    id: 3a31a1af-ead8-4bcf-8c70-d2ced97dbb92
+session: {}
+pr_review:
+    enabled: true
+    review_triggers:
+        drafts: false
+    build:
+        kind: ci_upload_to_revyl
+        app_ids:
+            android: 0f7b75a4-2191-4302-acea-2a64e8fb4a81
+    proof_of_changes:
+        enabled: true
+        harness:
+            kind: revyl
+    strict_ci_check:
+        build: true
