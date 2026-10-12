@@ -14,4 +14,4 @@ test:
         name: GitOps Lab Android
     blocks:
         - type: instructions
-          step_description: Open the cart and tap Checkout
+          step_description: Open the cart, tap Checkout and verify the order summary (edited on main in GitHub)
