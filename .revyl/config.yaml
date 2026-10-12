@@ -4,7 +4,7 @@ session: {}
 pr_review:
     enabled: true
     review_triggers:
-        drafts: false
+        drafts: maybe
     build:
         kind: ci_upload_to_revyl
         app_ids:
