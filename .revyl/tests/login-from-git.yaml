@@ -1,0 +1,10 @@
+# Revyl Test Definition
+test:
+    metadata:
+        name: login-from-git
+        platform: android
+    build:
+        name: GitOps Lab Android
+    blocks:
+        - type: instructions
+          step_description: Log in with the test account (created as a file on main)
